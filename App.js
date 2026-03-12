@@ -9,7 +9,7 @@
                     <div class="p-6">
                         <div>
                             <h3 class="text-lg font-semibold">Name: ${item.name}</h3>
-                            <h3 class="text-lg font-semibold">Username:${item.username}</h3>
+                            <h3 class="text-lg font-semibold">Username: ${item.username}</h3>
                             <p class="mt-2 text-sm text-slate-500 leading-relaxed font-semibold">Email: ${item.email}</>
                             <p class="mt-2 text-sm text-slate-500 leading-relaxed font-semibold">Street: ${item.address.street}</p>
                             <p class="mt-2 text-sm text-slate-500 leading-relaxed font-semibold">Suite: ${item.address.suite}</p>
@@ -29,3 +29,4 @@
                 })
             })
     }
+
